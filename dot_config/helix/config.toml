@@ -1,0 +1,27 @@
+theme = "dracula"
+
+[editor]
+auto-save = true
+true-color = true
+idle-timeout = 0
+completion-trigger-len = 1
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name" ,"read-only-indicator", "file-modification-indicator"]
+center = []
+right = ["diagnostics", "version-control"]
+
+[editor.indent-guides]
+render = true
+skip-levels = 2
+
+[editor.soft-wrap]
+enable = true
+
+
+[editor.file-picker]
+hidden = false
+
+[keys.select]
+k = ["extend_line_up", "extend_to_line_bounds"]
+j = ["extend_line_down", "extend_to_line_bounds"]
