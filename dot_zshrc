@@ -136,4 +136,6 @@ unset __conda_setup
 
 alias zl="zellij"
 alias "zl a"="zellij a --index 0"
+alias lg="lazygit"
 export PATH="$HOME/.local/bin:$PATH"
+
