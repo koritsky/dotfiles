@@ -25,3 +25,10 @@ hidden = false
 [keys.select]
 k = ["extend_line_up", "extend_to_line_bounds"]
 j = ["extend_line_down", "extend_to_line_bounds"]
+
+[keys.normal]
+C-k = "jump_forward"
+C-j = "jump_backward"
+A-S-h = "jump_view_left"
+A-S-l = "jump_view_right"
+
