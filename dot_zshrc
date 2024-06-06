@@ -144,3 +144,13 @@ export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
+# Added by LM Studio CLI tool (lms)
+export PATH="$PATH:/Users/koritsky/.cache/lm-studio/bin"
+
+# bun completions
+[ -s "/Users/koritsky/.bun/_bun" ] && source "/Users/koritsky/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+export PYTHONBREAKPOINT="pudb.set_trace"
